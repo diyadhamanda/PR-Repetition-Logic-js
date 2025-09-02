@@ -1,14 +1,14 @@
-let num = 5;
-let isprime = false;
+let num = 42;
+let isprime = true;
 
 for (let i =2; i < num/2; i++) {
 if (num % i == 0) {
-   isprime = true;
+   isprime = false;
 };
 };
 
 if (isprime) {
-    console.log(`${num}is prime number`);
+    console.log(`${num} is prime number`);
     
 }
 else{
